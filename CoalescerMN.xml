@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- Configuration of Module CoalescerMN -->
+
+<CoalescerMN     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation='[SCHEMAPATH]/CoalescerMN.xsd'>
+
+
+  <antiP0> 4.89 </antiP0> <!-- MeV antideuterons -->
+  <p0> 493.31 </p0> <!-- MeV deuterons -->
+  <beamMomentum> 31 </beamMomentum> <!-- GeV -->
+  <!-- Carbon target -->
+  <targetAtomicNumber> 31 </targetAtomicNumber> <!-- int -->
+  <targetMassNumber> 31 </targetMassNumber> <!-- int -->
+  <!-- p beam -->
+  <beamAtomicNumber> 1 </beamAtomicNumber> <!-- int -->
+  <beamMassNumber> 1 </beamMassNumber> <!-- int -->
+
+</CoalescerMN>

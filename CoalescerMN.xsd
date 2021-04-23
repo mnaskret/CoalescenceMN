@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:shine="http://cern.ch/na61/schema/types">
+
+  <xs:import
+    namespace="http://cern.ch/na61/schema/types"
+    schemaLocation="[SCHEMAPATH_IMPORTS]/ShineSchemaTypes.xsd"/>
+
+  <xs:import
+    namespace="http://cern.ch/na61/schema/types"
+    schemaLocation="[SCHEMAPATH_SRCDIR]/Utilities/Reader/ShineSchemaTypes.xsd"/>
+
+  <xs:element name="CoalescerMN">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="p0" type="xs:double"/>
+        <xs:element name="antiP0" type="xs:double"/>
+        <xs:element name="beamMomentum" type="xs:double"/>
+        <xs:element name="targetAtomicNumber" type="xs:int"/>
+        <xs:element name="targetMassNumber" type="xs:int"/>
+        <xs:element name="beamAtomicNumber" type="xs:int"/>
+        <xs:element name="beamMassNumber" type="xs:int"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
